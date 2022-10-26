@@ -28,7 +28,7 @@ namespace Managment.ExtensionMethods
             // Punkt 7 - Wysokos zaliczki do US => zaliczka na podatek - skladka zdrowotna odliczenie
             double zaliczkaUrzadSkarbowy = zaliczkaPodatek - zdrowotnaOdliczenie;
 
-            // Punkt 8 - Ustalenie kwoty netto => brutto - 
+            // Punkt 8 - Ustalenie kwoty netto
             double netto = brutto - ubezpieczeniaSpoleczne - zdrowotnaZUS - zaliczkaUrzadSkarbowy;
 
             return netto;
